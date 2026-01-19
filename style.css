@@ -1,0 +1,156 @@
+
+
+body {
+  background-color: #f5f1eb;
+  color: #1c1c1c;
+  font-family: "Georgia", serif;
+}
+
+/* ===== NAVBAR ===== */
+.navbar {
+  background-color: #1c1c1c;
+}
+
+.navbar-brand, .nav-link {
+  color: #d4af37 !important;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+/* ===== LOGIN ===== */
+.login-page {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.login-center {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-box {
+  background-color: #ffffff;
+  padding: 40px;
+  width: 340px;
+  border: 1px solid #d4af37;
+}
+
+.login-box h3 {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.login-box input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+}
+
+.login-box button {
+  width: 100%;
+  padding: 10px;
+  background-color: #1c1c1c;
+  color: #d4af37;
+  border: none;
+}
+
+/* ===== CARTES ===== */
+.card {
+  background-color: #ffffff;
+  border: 1px solid #d4af37;
+}
+/* ===== QUARTOS ENCADRÉS (TABLEAU) ===== */
+
+.quarto-linha {
+  display: flex;
+  background-color: #ffffff;
+  border: 2px solid #d4af37; /* cadre doré */
+  margin-bottom: 25px;
+}
+
+.quarto-linha img {
+  width: 260px;
+  height: 180px;
+  object-fit: cover;
+  border-right: 2px solid #d4af37;
+}
+
+.quarto-info {
+  padding: 20px;
+}
+
+.quarto-info h4 {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+/* ===== PAGE D'ACCUEIL ===== */
+
+.home-page {
+  height: 100vh;
+  background-image: url("imagem/suite.jpg"); /* image de fond */
+  background-size: cover;
+  background-position: center;
+}
+
+.home-overlay {
+  height: 100%;
+  background-color: rgba(0,0,0,0.55);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  text-align: center;
+}
+
+.home-overlay h1 {
+  font-size: 3rem;
+  margin-bottom: 15px;
+}
+
+.home-overlay p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.btn-home {
+  padding: 12px 30px;
+  border: 1px solid #d4af37;
+  color: #d4af37;
+  text-decoration: none;
+}
+
+.btn-home:hover {
+  background-color: #d4af37;
+  color: #000;
+}
+.home-page {
+  height: 100vh;
+  background-image: url("/imagem/devanthotel.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.login-page {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f2f2f2;
+}
+
+.login-box {
+  width: 350px;
+  padding: 30px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.15);
+}
+
+
